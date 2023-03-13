@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:comic;
+    box-sizing: content-box;
+}
+header{
+    .contactos{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 1;
+        background: white;
+        width: 100%;
+        h2{
+            font-size: 1rem;
+            margin-right:1rem;
+        }
+    }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgb(17, 126, 176);
+        padding-top: 1.4rem;
+        position: fixed;
+    }
+    .navbar{
+        background:rgb(17, 126, 176)!important;
+
+        li{
+            padding: 1rem;
+        }
+
+        a{
+            color: rgb(255, 255, 255);
+            font-size: 1.3rem;
+            font-family: cursive;
+            
+            &:hover{
+                background: white;
+                color:rgb(17, 126, 176);
+                text-decoration: overline;
+                border-radius: 10px;
+            }
+        }
+    }
+}
