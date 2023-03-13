@@ -22,26 +22,34 @@ header .menu {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background-color: rgb(17, 126, 176);
+  background-color: rgb(253, 253, 253);
   padding-top: 1.4rem;
   position: fixed;
 }
+header .menu img {
+  filter: contrast(2);
+}
 header .navbar {
-  background: rgb(17, 126, 176) !important;
+  background: rgb(255, 255, 255) !important;
 }
 header .navbar li {
   padding: 1rem;
 }
 header .navbar a {
-  color: rgb(255, 255, 255);
+  color: rgb(14, 118, 222);
   font-size: 1.3rem;
   font-family: cursive;
+  text-align: center;
 }
 header .navbar a:hover {
-  background: white;
-  color: rgb(17, 126, 176);
+  background: rgb(17, 126, 176);
+  color: white;
   text-decoration: overline;
   border-radius: 10px;
+}
+header .navbar .navbar-toggler {
+  color: rgb(17, 126, 176);
+  background-color: rgb(17, 126, 176);
 }
 
 .home {
